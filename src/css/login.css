@@ -1,0 +1,148 @@
+.login_container{
+    
+}
+.login_bg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 105;
+}
+.login_content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 410px;
+    height: 330px;
+    background: #fff;
+    border: 1px solid #ddd;
+    z-index: 106;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.login_content .social_sign{
+    float: left;
+    width: 346px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 35px;
+}
+.login_content .login_form{
+    width: 346px;
+    height: 300px;
+    box-sizing: border-box;
+}
+.login_content .login_form .title,
+.login_content .social_sign .title{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.login_content .login_form input{
+    width: 278px;
+    height: 43px;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: -1px;
+}
+.login_content .login_form .login_but{
+    width: 278px;
+    height: 43px;
+    margin: 0 auto;
+    background: #0f4c81;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 43px;
+    color: #fff;
+    cursor: pointer;
+}
+.login_content .login_form .login_menu{
+    display: flex;
+    font-size: 12px;
+    width: 278px;
+    margin: 0 auto;
+}
+.login_content .login_form .login_menu p{
+    width: 33%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.login_content .social_sign .sns_bar{
+    width: 291px;
+    height: 54px;
+    border: 1px solid #ddd;
+    border-radius: 52px;
+    line-height: 54px;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 80px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.login_content .social_sign .sns_bar span.kakao,
+.login_content .social_sign .sns_bar span.naver{
+    width: 54px;
+    height: 54px;
+    display: block;
+    border-radius: 54px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.login_content .social_sign .sns_bar .kakao{
+    background-color: #ffce3d;
+    transition: all 0.3s ease-out;
+}
+.login_content .social_sign .sns_bar .naver{
+    background: #2db400;
+    transition: all 0.3s ease-out;
+}
+.login_content .social_sign .sns_bar .kakao_text{
+    position: absolute;
+    z-index: 1;
+}
+.login_content .social_sign .sns_bar .naver_text{
+    position: absolute;
+    z-index: 1;
+}
+.login_content .social_sign .sns_bar .kakao img{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.login_content .social_sign .sns_bar .naver img{
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+.login_content .social_sign .sns_barkakao:hover .kakao{
+    width: 291px;
+}
+.login_content .social_sign .sns_barkakao:hover .kakao_text,
+.login_content .social_sign .sns_barnaver:hover .naver_text{
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+.login_content .social_sign .sns_barnaver:hover .naver{
+    width: 291px;
+}
+
+.login_container .close_but{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.login_container .close_but svg{
+    font-size: 30px;
+}

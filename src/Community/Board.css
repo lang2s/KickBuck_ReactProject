@@ -1,0 +1,253 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section_top {
+    background: none;
+    height: auto;
+    margin-top: 40px;
+    
+    overflow: hidden;
+}
+
+
+.community_title
+{
+    color: #040000;
+    margin: 60px auto 0;
+    padding: 0 0 50px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 44px;
+    line-height: initial;
+    position: relative;
+    top: 45px;
+    height: 50px;
+    text-align: center;
+}
+
+.board_container
+{
+    width: 100%;
+    max-width: 1204px;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+    top: 50px;
+    color: rgb(122, 122, 122);
+    margin-bottom: 70px;
+}
+
+ul
+{
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    
+}
+
+
+.board_container ul.board_tab li
+{
+    width: 25%;
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 900;
+    height: auto;
+    float: none;
+    display: inline-block;
+    border: none;
+    box-shadow: 1px 0 0 0 #eee, 0 1px 0 0 #eee, 1px 1px 0 0 #eee, 1px 0 0 0 #eee inset, 0 1px 0 0 #eee inset;
+    text-align: center;
+}
+
+.board_container ul.board_tab li:hover
+{
+    cursor: pointer;
+    
+}
+
+.board_container ul.board_tab li.tab_on
+{
+    font-weight: Bold;
+    color: #222;
+    border: none;
+    background: #f6f6f6;
+}
+
+
+.board thead.board_head
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color:  #222;
+    font-size: 17px;
+    
+}
+
+.board tbody.board_body 
+{
+    font-weight: 600;
+    text-decoration: none;
+    color:  #333;
+    font-size: 16px;
+}
+
+.input_content, .input_title, .input_comment
+{
+    font-weight: 600;
+    text-decoration: none;
+    color:  #333;
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+table
+{
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-collapse: collapse;
+
+}
+
+th, td
+{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.board_body a
+{
+    color:  #333;
+}
+
+.board_body a:hover
+{
+    color:  #333;
+    text-decoration: none;
+}
+
+Button.btn_function
+{
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input_area
+{
+    background-color: #f6f6f6;
+    padding: 10px 20px;
+}
+
+/* faq css */
+
+.ydiv{
+    padding:30px;
+    
+    text-align: left;
+}
+.yform{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#xmenu{
+   display:inline-block; width:'100px'; color:black; font-size:'22px'; text-decoration: none;
+
+}
+
+#xmenu:hover{
+    display:inline-block; width:'100px'; color:#3886CE; font-size:'22px'; font-weight: bold; text-decoration: none;
+   } 
+
+   .faqwrap{
+    position: relative;
+    width: 100%;
+    font-size:12pt;
+    display: inline-block;
+    
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.question:before{
+    content:"Q.  ";
+}
+
+.question{   
+    position: relative;
+    display: inline-block;
+    width:97%;    
+    border: 1px solid #f6f6f6;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding: 10px 10px;
+    height: 50px;
+    line-height: 50px;  
+
+}
+
+
+.answer{
+    
+    position: relative;
+    display: inline-block; 
+    width:101.5%;
+    border: 1px solid lightgrey;
+    min-width: 300px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding: 15px 15px;
+    background-color: rgb(224, 223, 223);
+    box-sizing: border-box;
+    /* line-height: 35px;
+    height: 70px; */
+    overflow: hidden;
+ 
+}
+
+
+.add_box .input_box .fileupload span{
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+}
+.imgadd_but {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 13px;
+    background: #0f4c81;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fileupload input[type="file"]{
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0); 
+    border: 0;
+}

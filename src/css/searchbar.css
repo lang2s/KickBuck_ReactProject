@@ -1,0 +1,38 @@
+.result_box .buket_form{
+    width: 19%;
+    min-width: auto;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 3px solid #3886CE;
+    margin-right: 1.2%;
+    margin-bottom: 1.2%;
+}
+.result_box .buket_form .buket_content{
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.result_box .buket_form .bottom_but{
+    margin-top: 25px;
+}
+.result_box .buket_form .bottom_but p{
+    padding-left: 30px;
+}
+.result_box .buket_form:nth-of-type(5) {
+    margin-right: 0px;
+}
+.result_box {
+    padding: 50px 5%;
+
+}
+.result_box .blue_color {
+    color: #0f4c81;
+}
+.result_box .result_title {
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}

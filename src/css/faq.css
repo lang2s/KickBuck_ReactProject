@@ -1,0 +1,26 @@
+.faqwrap{
+    width: 60%;
+}
+
+.container{
+    width: 800px;
+}
+
+.question{
+    border: 1px solid lightgrey;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+}
+
+.answer{
+    height: 100px;
+    border: 1px solid lightgrey;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    line-height: 24px;
+    overflow: hidden;
+    position: relative;
+}

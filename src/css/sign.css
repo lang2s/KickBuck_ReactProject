@@ -1,0 +1,115 @@
+.sign_box {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+.sign_box .title{
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+.sign_box .input_box{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.sign_box .input_box .mb{
+    margin-bottom: 10px;
+}
+.sign_box .input_box .mb5{
+    margin-bottom: 5px;
+}
+.sign_box .input_box .pull {
+    height: 38px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+.sign_box .input_box input.email{
+    width: 239px;
+    margin-right: 10px;
+}
+.sign_box .input_box input.email2{
+    width: 140px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.sign_box .input_box .sel{
+    width: 140px;
+}
+.sign_box .input_box .agree{
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.sign_box .input_box .but_box{
+    width: 270px;
+    margin: 30px auto;
+    margin-top: 50px;
+}
+.sign_box .input_box .but_box .ok{
+    width: 163px;
+    height: 48px;
+    border: 1px solid #3886CE;
+    color: #3886CE;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 52px;
+    margin-right: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.sign_box .input_box .but_box .ok:hover{
+    background: #3886CE;
+    color: #fff;
+}
+.sign_box .input_box .but_box .cancel{
+    height: 48px;
+    width: 93px;
+    border-radius: 52px;
+    display: inline-block;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 48px;
+    transition: .3s;
+    cursor: pointer;
+}
+.sign_box .input_box .but_box .cancel:hover{
+    background: #333;
+    color: #fff;
+}
+.sign_box .input_box .hp_box{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+.sign_box .input_box .all_agree{
+    height: 72px;
+    width: 100%;
+    line-height: 72px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+}
+.sign_box .input_box .check_text {
+    color: #3886CE;
+    font-size: 12px;
+}
+.sign_box .input_box .check_text_red {
+    color: red;
+    font-size: 12px;
+}
+
