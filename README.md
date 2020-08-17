@@ -32,4 +32,4 @@
 사람이 승인 을 누르면 사진과 같이 함께하기 게시판이 생성됩니다.
 
 # Spring Code
-https://github.com/lang2s/KickBuck_SpringProject.git
+- https://github.com/lang2s/KickBuck_SpringProject.git
